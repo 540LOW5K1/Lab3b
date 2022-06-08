@@ -21,6 +21,6 @@
       <Button fx:id="btnPrzejdzDoStrony" layoutX="699.0" layoutY="602.0" mnemonicParsing="false" onAction="#btnZaladujStrone" text="Załaduj" />
       <ImageView fx:id="imgMiniaturka" fitHeight="310.0" fitWidth="338.0" layoutX="455.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
       <Label layoutX="470.0" layoutY="173.0" text="Miniaturka" />
-      <Button fx:id="btnPokazInfografike" layoutX="695.0" layoutY="514.0" mnemonicParsing="false" text="Pokaż" />
+      <Button fx:id="btnPokazInfografike" layoutX="695.0" layoutY="514.0" mnemonicParsing="false" onAction="#btnPokazOnAction" text="Pokaż" />
     </children>
 </AnchorPane>
