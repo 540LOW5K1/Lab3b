@@ -18,7 +18,7 @@
         </Label>
       <ListView fx:id="lstInfografiki" layoutX="59.0" layoutY="95.0" prefHeight="474.0" prefWidth="391.0" />
       <TextField fx:id="txtAdresStrony" layoutX="51.0" layoutY="601.0" prefHeight="26.0" prefWidth="633.0" />
-      <Button fx:id="btnPrzejdzDoStrony" layoutX="699.0" layoutY="602.0" mnemonicParsing="false" text="Załaduj" />
+      <Button fx:id="btnPrzejdzDoStrony" layoutX="699.0" layoutY="602.0" mnemonicParsing="false" onAction="#btnZaladujStrone" text="Załaduj" />
       <ImageView fx:id="imgMiniaturka" fitHeight="310.0" fitWidth="338.0" layoutX="455.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
       <Label layoutX="470.0" layoutY="173.0" text="Miniaturka" />
       <Button fx:id="btnPokazInfografike" layoutX="695.0" layoutY="514.0" mnemonicParsing="false" text="Pokaż" />
